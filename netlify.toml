@@ -1,2 +1,8 @@
 [build]
   functions = "netlify/functions"
+
+[functions]
+  directory = "netlify/functions"
+
+[build.environment]
+  GO_VERSION = "1.16"
